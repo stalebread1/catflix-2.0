@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catflix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo-container" id="logoContainer">
+        <img src="catflix-logo.png" alt="Catflix Logo" class="logo">
+        <audio id="startupSound" src="startup sound.mp3"></audio>
+    </div>
+    <div class="video-container" id="videoContainer">
+        <p id="warningMessage">WARNING: There are so few cat videos as of now, the same video may be repeated.</p>
+        <video id="catVideo" controls>
+            Your browser does not support the video tag.
+        </video>
+        <button id="nextButton">Next Cat Video</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
